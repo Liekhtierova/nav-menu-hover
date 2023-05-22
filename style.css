@@ -1,0 +1,90 @@
+.main-menu {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+
+}
+.list-items {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(255, 136, 0);    
+    padding-left: 60px;
+
+}
+    .sub-2-1-menu, .sub-3-1-menu, .sub-3-2-menu, .sub-3-3-menu {
+    position: absolute;
+    display: block;
+    min-width: 200px;
+    padding: 2px;
+    top: 26px; 
+}
+
+
+
+.list2-items, .list31-items, .list32-items, .list33-items {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(255, 136, 0);
+    font-size: 25px;
+    height: 40px;
+    padding: 1px;
+}
+.list-items:hover {
+    background-color: brown;
+
+}
+
+
+
+.list-items:hover .list2-items {
+    display: block;
+}
+
+.list-items:hover .list31-items {
+    display: block;
+
+}
+
+.list31-items:hover .list32-items {
+    display: block;
+
+}
+
+.list32-items:hover .list33-items {
+    display: block;
+
+}
+
+.list2-items:hover {
+    background-color: brown;
+}
+
+.list31-items:hover {
+    background-color: brown;
+}
+
+.list32-items:hover {
+    background-color: brown;
+}
+
+.list33-items:hover {
+    background-color: brown;
+}    
+
+
+.sub-3-2-menu, .sub-3-3-menu  {
+    top: 90px;
+    left: 195px;
+
+}
+
+
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    width: 100%;
+    color: white;
+
+}
